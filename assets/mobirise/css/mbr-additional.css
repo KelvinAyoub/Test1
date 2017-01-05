@@ -672,42 +672,6 @@ h6,
 .theme-border {
   border: 1px solid #2969b0;
 }
-#extMenu1-2 {
-  /* ** Collapsing side menu - right aligned ** */
-  /* with Collapsed option turned ON these lines align the fly out menu to the right side of the screen - if you prefer the default alignment - just leave them commented */
-  /*.nav-dropdown.navbar-toggleable-xl{ 
-    left: initial;
-    right: 0;
-    transform: translateX(100%);
-}
-.nav-dropdown-sm.collapsing, .nav-dropdown-sm.collapse.in {
-    transform: translateX(0px);
-    transition: all 0.25s ease-out 0s;
-    visibility:visible!important;
-}
-
-.nav-dropdown-sm.collapsing[aria-expanded="false"] {
-    display:hidden!important;
-    transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-}
-
-.navbar-dropdown .navbar-close {
-    left:initial;
-    right: 0.6875rem;
-    position: fixed;
-    top: 0.75rem;
-    z-index: 1000;
-}
-.collapse{
-    visibility:hidden!important;
-}
-*/
-  /* end of collapsing side menu - right */
-  /* Reunding the Navigation Items */
-  /* Transparent Dropdown menu */
-}
 #extMenu1-2 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -772,35 +736,6 @@ h6,
 #extMenu1-2 .innerEmail:hover,
 #extMenu1-2 .innerPhone:hover {
   color: #2969b0;
-}
-#extMenu1-2 .dropdown:hover > .dropdown-menu {
-  display: block;
-}
-#extMenu1-2 .navbar-dropdown .navbar-logo img:hover {
-  /*set the appropriate behavior of logo on hover */
-  /* useful online effects generator can be found at http://css3gen.com/ */
-  -moz-transform: translate(0px, -8px);
-  -webkit-transform: translate(0px, -8px);
-  -o-transform: translate(0px, -8px);
-  -ms-transform: translate(0px, -8px);
-  transform: translate(0px, -8px);
-}
-#extMenu1-2 .nav-dropdown {
-  width: auto;
-  padding: 0 auto;
-  border: 0.1rem solid gray;
-  margin: auto;
-  padding-right: 0.3rem;
-  padding-left: 0.rem;
-  border-radius: 2.0rem;
-}
-#extMenu1-2 .dropdown-menu {
-  background: Transparent!important;
-}
-#extMenu1-2 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
-#extMenu1-2 .dropdown-menu a:hover,
-#extMenu1-2 .dropdown-menu a:focus {
-  background: rgba(0, 0, 0, 0.8) !important;
 }
 #msg-box3-s .mbr-section-title,
 #msg-box3-s p {
